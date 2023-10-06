@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * This Describes the code
- * it contains the function main
- * after that prints the line of string as it is
+ * main -this prints the string exactly
+ * programming is like building
+ * followed by a new line
+ * Return: always 0 (succes)
 */
 int main(void)
 {
