@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * this is the main function 
- * description
- */
+ * This Describes the code
+ * it contains the function main
+ * after that prints the line of string as it is
+ * */
 int main(void)
 {
 	/*this line prints out a string */
