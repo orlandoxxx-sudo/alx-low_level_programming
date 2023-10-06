@@ -7,14 +7,15 @@
 */
 int main() 
 {
-    int asciiValue = 97; // ASCII value of 'a'
+    int asciiValue = 97;
 
-    while (asciiValue <= 122) {  // 'z' has ASCII value 122
+    while (asciiValue <= 122) 
+    {
         putchar(asciiValue);
         asciiValue++;
     }
 
-    putchar('\n');  // Move to the next line after printing all lowercase letters
+    putchar('\n'); 
 
     return 0;
 }
