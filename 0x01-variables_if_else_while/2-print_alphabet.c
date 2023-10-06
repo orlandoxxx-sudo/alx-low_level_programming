@@ -7,22 +7,12 @@
 */
 int main(void)
 {
-/*	int asciiValue = 97;
+	int asciiValue = 97;
 
 	while (asciiValue <= 122)
 	{
 		putchar(asciiValue);
 		asciiValue++;
-	}
-	putchar('\n');
-	return (0);*/
-
-	char letter= 'a';
-
-	while (letter <= 'z')
-	{
-		putchar(letter);
-		letter++;
 	}
 	putchar('\n');
 	return (0);
