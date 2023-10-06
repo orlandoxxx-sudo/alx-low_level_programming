@@ -5,18 +5,17 @@
  * Descrioption: A code that prints all lowercase letters
  * Return: Always 0 (Success)
 */
-int main() 
+int main(void) 
 {
-    int asciiValue = 97;
+	int asciiValue = 97;
 
-    while (asciiValue <= 122) 
-    {
-        putchar(asciiValue);
-        asciiValue++;
-    }
-
-    putchar('\n'); 
-
-    return 0;
+	while (asciiValue <= 122)
+	{
+		putchar(asciiValue);
+		asciiValue++;
+	}
+	putchar('\n'); 
+	
+	return (0);
 }
 
