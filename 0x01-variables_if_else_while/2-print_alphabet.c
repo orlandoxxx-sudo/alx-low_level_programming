@@ -2,10 +2,10 @@
 
 /**
  * main - Entry Point
- * Descrioption: A code that prints all lowercase letters
+ * Description: A code that prints all lowercase letters
  * Return: Always 0 (Success)
 */
-int main(void) 
+int main(void)
 {
 	int asciiValue = 97;
 
@@ -14,8 +14,7 @@ int main(void)
 		putchar(asciiValue);
 		asciiValue++;
 	}
-	putchar('\n'); 
-	
+	putchar('\n');
 	return (0);
 }
 
