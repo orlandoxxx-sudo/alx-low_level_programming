@@ -2,6 +2,7 @@
 /**
  * _abs - this programming returns the absolute valkues of integer
  * Description: ouputing ab s values of all integers
+ * @n - define the integer place holder
  * Return: 0 (Sucess)
 */
 int _abs(int n)
