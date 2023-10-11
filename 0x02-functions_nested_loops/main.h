@@ -1,8 +1,3 @@
-#ifndef MAIN_H  // Include guards to prevent multiple inclusion
+#ifndef MAIN_H
 #define MAIN_H
 
-// Function prototypes
-// int _putchar(char c);
-//
-// #endif  // MAIN_H
-//
