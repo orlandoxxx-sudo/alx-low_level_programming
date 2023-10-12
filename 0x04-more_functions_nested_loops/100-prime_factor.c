@@ -2,7 +2,6 @@
 #include <math.h>
 
 /**
- * main - entry point
  * largest_prime_factor - Finds the largest prime factor of a number
  * @n: The number to find the largest prime factor of
  * Return: The largest prime factor of n
@@ -29,6 +28,11 @@ unsigned long largest_prime_factor(unsigned long n)
     else
         return i - 2;  /* Return the largest factor found */
 }
+
+/**
+ * main - Entry point
+ * Return: 0 (success)
+*/
 
 int main(void)
 {
