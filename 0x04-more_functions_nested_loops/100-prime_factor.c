@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 /**
  * largest_prime_factor - Finds the largest prime factor of a number
@@ -8,26 +9,24 @@
 unsigned long largest_prime_factor(unsigned long n)
 {
     unsigned long i;
-    unsigned long largest_factor = 0;
 
-    // Divide the number by 2 until it becomes odd
     while (n % 2 == 0)
     {
-        largest_factor = 2;
         n = n / 2;
     }
 
-    // Try dividing by odd numbers starting from 3
-    for (i = 3; i <= n; i += 2)
+    for (i = 3; i <= sqrt(n); i += 2)
     {
         while (n % i == 0)
         {
-            largest_factor = i;
             n = n / i;
         }
     }
 
-    return largest_factor;
+    if (n > 2)
+        return n;
+    else
+        return i - 2;  /* Return the largest factor found */
 }
 
 int main(void)
