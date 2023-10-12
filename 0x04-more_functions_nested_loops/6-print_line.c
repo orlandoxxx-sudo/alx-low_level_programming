@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** print_line - This function prints a line on the terminal
+/**
+ * print_line - This function prints a line on the terminal
  * @n: number of times to print the underscore
 */
 void print_line(int n)
