@@ -3,8 +3,7 @@
 /**
  * _isupper - prints out only uppercase letter
  * @c: takes value of character
- * Return: 0 if it's not uppercase
- * Return: 1 if it's upper case
+ * Return: 1 if c is uppercase, 0 otherwise
 */
 
 int _isupper(int c)
