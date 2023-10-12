@@ -27,7 +27,7 @@ unsigned long largest_prime_factor(unsigned long n)
     if (n > 2)
         return n;
     else
-        return i - 2
+        return i - 2;  /* Return the largest factor found */
 }
 
 int main(void)
