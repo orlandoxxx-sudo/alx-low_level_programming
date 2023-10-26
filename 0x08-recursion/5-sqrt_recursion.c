@@ -1,29 +1,30 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - calculates the squar root of any number
- * Description: this program calculates the squaroot of a number
- * @n: This the number we need to check for the squaroot
- * @guess: possible number guessed by the system
- * _sqrt_helper - helps to check for the possible squareroot
- * Description: The Sqrt helper helps to guess the number
- * Return: -1 if n does not have natural squarroot
+ * _sqrt_root - guesses the squaroot of an integer
+ * @n: This is the integer
+ * @root: the possible root of an integer
+ *
+ * Return: Squar Root of n, -n if not natural squareroot
  */
-int _sqrt_helper(int n, int guess)
+int _sqrt_root(int n, int root)
 {
-	if (guess * guess == n)
+	if (root * root == n)
 	{
-		return (guess);
+		return (root);
 	}
-	else if (guess * guess > n)
+	else if (root * root > n)
 	{
 		return (-1);
 	}
 	else
 	{
-		return (_sqrt_helper(n, guess + 1));
+		return (_sqrt_root(n, root + 1));
 	}
 }
+/**
+ * _sqrt_recursion - outpus the squarrot of an integer
+ */
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
@@ -36,6 +37,6 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (_sqrt_helper(n, 2));
+		return (_sqrt_root(n, 2));
 	}
 }
