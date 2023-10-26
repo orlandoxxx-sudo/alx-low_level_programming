@@ -6,6 +6,7 @@
  * @n: This the number we need to check for the squaroot
  * @guess: possible number guessed by the system
  * _sqrt_helper - helps to check for the possible squareroot
+ * Description: The Sqrt helper helps to guess the number
  * Return: -1 if n does not have natural squarroot
  */
 int _sqrt_helper(int n, int guess)
