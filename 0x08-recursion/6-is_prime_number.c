@@ -3,7 +3,7 @@
 /**_prime_recursive - this is the main prime number recursive checker
  * @n: this is the integer that is being checked
  * @divider: the dividing integer checker
- *
+ * Description: this checks the prime recursion
  * Return: 0 if n is less than 2, 1 if divider is equal to 1
  */
 int _prime_recursive(int n, int divider)
