@@ -24,6 +24,8 @@ int _sqrt_root(int n, int root)
 }
 /**
  * _sqrt_recursion - outpus the squarrot of an integer
+ * @n: this the integer to find it's root
+ * Return: -1 if n less than 0 othewise the squaroot
  */
 int _sqrt_recursion(int n)
 {
