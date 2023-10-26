@@ -2,7 +2,8 @@
 
 /**
  * _sqrt_recursion - calculates the squar root of any number
- * @n: This the number we need to check for the squaroot 
+ * Description: this program calculates the squaroot of a number
+ * @n: This the number we need to check for the squaroot
  * @guess: possible number guessed by the system
  * _sqrt_helper - helps to check for the possible squareroot
  * Return: -1 if n does not have natural squarroot
@@ -34,6 +35,6 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return _sqrt_helper(n, 2);
+		return (_sqrt_helper(n, 2));
 	}
 }
