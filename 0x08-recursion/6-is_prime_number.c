@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**_prime_recursive - this is the main prime number recursive checker
+/**
+ * _prime_recursive - this is the main prime number recursive checker
  * @n: this is the integer that is being checked
  * @divider: the dividing integer checker
  * Description: this checks the prime recursion
