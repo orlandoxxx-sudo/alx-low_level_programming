@@ -1,4 +1,3 @@
-#include "main.h"
 #include "num_check.c"
 #include <stdio.h>
 #include <stdlib.h>
