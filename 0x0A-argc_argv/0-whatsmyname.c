@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - this invokes the main library
@@ -8,7 +7,7 @@
  * @argv: array of the set of arguments
  * Return: 0 Always Success
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc >= 1)
 	{
