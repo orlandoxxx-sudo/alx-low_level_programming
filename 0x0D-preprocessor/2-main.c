@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - this is a code that prints the file Path
@@ -8,6 +7,6 @@
 */
 int main(void)
 {
-	printf ("%s\n", __FILE__);
+	printf("%s\n", __FILE__);
 	return(0);
 }
