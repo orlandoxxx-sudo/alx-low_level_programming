@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - this is a code that prints the file Path
- * Description: This prints the name of the file
+ * main - this is prints the file name
+ *
  * Return: Always 0 (Success)
 */
 int main(void)
