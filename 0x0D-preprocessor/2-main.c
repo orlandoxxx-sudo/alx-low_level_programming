@@ -2,8 +2,8 @@
 
 /**
  * main - this is a code that prints the file Path
- * Descrioption: This prints the name of the file
- * Return: Always 0
+ * Description: This prints the name of the file
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
